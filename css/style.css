@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class^="col"]{
+    background-color: pink;
+    text-align: center;
+    font-size: 5%;
+    line-height: 200px;
+}
+
+[class^="col"]>div{
+    height: 95%;
+}
