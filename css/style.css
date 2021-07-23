@@ -4,13 +4,31 @@
     box-sizing: border-box;
 }
 
+.container{
+    width: 70%;
+    margin: auto;
+}
+
 [class^="col"]{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
     background-color: pink;
+    color: black;
+
+    
     text-align: center;
-    font-size: 5%;
-    line-height: 200px;
+    line-height: 150px;
+    font-size: 1em;
+    border: 1px solid teal;
 }
 
 [class^="col"]>div{
-    height: 95%;
+    line-height: 140px;
+    background-color: salmon;
+    border: 1px solid white;
+    font-size: .7em;
 }
